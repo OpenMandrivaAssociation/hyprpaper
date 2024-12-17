@@ -1,5 +1,5 @@
 Name:           hyprpaper
-Version:        0.7.1
+Version:        0.7.3
 Release:        1
 Summary:        Blazing fast wayland wallpaper utility with IPC controls
 Group:          Hyprland
@@ -13,6 +13,7 @@ BuildRequires:  pkgconfig(glesv2)
 BuildRequires:  pkgconfig(hyprlang)
 BuildRequires:  pkgconfig(hyprwayland-scanner)
 BuildRequires:  pkgconfig(hyprutils)
+BuildRequires:  pkgconfig(hyprgraphics)
 BuildRequires:  pkgconfig(libjpeg)
 BuildRequires:  pkgconfig(libmagic)
 BuildRequires:  pkgconfig(libwebp)
@@ -21,6 +22,10 @@ BuildRequires:  pkgconfig(pangocairo)
 BuildRequires:  pkgconfig(wayland-client)
 BuildRequires:  pkgconfig(wayland-protocols)
 BuildRequires:  pkgconfig(wayland-scanner)
+
+Requires:  hyprlang
+Requires:  hyprutils
+Requires:  hyprgraphics
 
 %description
 Hyprpaper is a blazing fast wallpaper utility for Hyprland with the ability
