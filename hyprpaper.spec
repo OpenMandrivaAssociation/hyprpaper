@@ -48,4 +48,4 @@ make protocols
 %license LICENSE
 %doc README.md
 %{_bindir}/%{name}
-%{_libdir}/systemd/user/hyprpaper.service
+%{_userunitdir}/hyprpaper.service
