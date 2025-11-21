@@ -1,6 +1,6 @@
 Name:           hyprpaper
 Version:        0.7.6
-Release:        6
+Release:        7
 Summary:        Blazing fast wayland wallpaper utility with IPC controls
 Group:          Hyprland
 License:        BSD-3-Clause AND HPND-sell-variant
