@@ -8,6 +8,7 @@ URL:            https://github.com/hyprwm/hyprpaper
 Source0:        https://github.com/hyprwm/hyprpaper/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
+BuildRequires:	make
 BuildRequires:  pkgconfig(cairo)
 BuildRequires:  pkgconfig(glesv2)
 BuildRequires:  pkgconfig(hyprlang)
@@ -37,7 +38,6 @@ wlroots-based compositors, though.
 %autosetup -p1
 
 %build
-make protocols
 %cmake
 %make_build
 
