@@ -24,7 +24,9 @@ BuildRequires:  pkgconfig(pangocairo)
 BuildRequires:  pkgconfig(wayland-client)
 BuildRequires:  pkgconfig(wayland-protocols)
 BuildRequires:  pkgconfig(wayland-scanner)
-
+BuildRequires:	pkgconfig(hyprtoolkit) >= 0.4.1
+BuildRequires:	hyprwire
+BuildRequires:	pkgconfig(libdrm)
 Requires:  hyprlang
 Requires:  hyprutils
 Requires:  hyprgraphics
