@@ -28,6 +28,8 @@ BuildRequires:	pkgconfig(hyprtoolkit) >= 0.4.1
 BuildRequires:	hyprwire
 BuildRequires:	pkgconfig(hyprwire)
 BuildRequires:	pkgconfig(libdrm)
+BuildRequires:	pkgconfig(aquamarine)
+
 Requires:  hyprlang
 Requires:  hyprutils
 Requires:  hyprgraphics
